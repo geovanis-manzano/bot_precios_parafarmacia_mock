@@ -1,0 +1,34 @@
+{
+    "api_urls": {
+        "autenticacion_url": "https://botplusweb.farmaceuticos.com/api/botplusapi/login/BotplusAuthenticate",
+        "medicamentos_precios_url": "https://botplusweb.farmaceuticos.com/api/botplusapi/BotPlus2022/ExportaPost",
+        "parafarmacia_url": "https://botplusweb.farmaceuticos.com/api/botplusapi/BotPlus2022/AvanzadaPPF",
+        "logout_url": "https://botplusweb.farmaceuticos.com/api/botplusapi/login/CloseBotPlusSession"
+    },
+
+    "credenciales_autenticacion": {
+        "Username": "bpm117329",
+        "Password": "30153F6",
+        "FuerzaBruta": "false",
+        "MantenerAbierta": "false"
+    },
+
+    "output_path_precios": "E:/Proyectos/bot_precios_parafarmacia_mock/precios.xlsx",
+    "output_path_parafarmacia": "E:/Proyectos/bot_precios_parafarmacia_mock/parafarmacia.xlsx",
+
+    "parametros_parafarmacia": {
+        "av": "",
+        "solo": "N",
+        "ops": "EST:0",
+        "max": "50000",
+        "idBusqueda": "397040"
+    },
+    
+    "campos_precios": [
+        "CNMUH",
+        "NOMMUH",
+        "PREMUH"
+    ],
+
+    "ids_precios": [88084, 88086, 88098]    
+}
